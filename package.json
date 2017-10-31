@@ -1,0 +1,29 @@
+{
+  "name": "nodejs_pachong",
+  "version": "1.0.0",
+  "description": "基于Nodejs cheerio request的简单爬虫",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wiviwiv/web-crawler.git"
+  },
+  "keywords": [
+    "cheerio",
+    "crawler",
+    "Nodejs"
+  ],
+  "author": "wivwiv <bigpar@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wiviwiv/web-crawler/issues"
+  },
+  "homepage": "https://github.com/wiviwiv/web-crawler#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "dateformat": "^3.0.2",
+    "request": "^2.83.0"
+  }
+}
