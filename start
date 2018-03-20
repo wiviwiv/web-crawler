@@ -1,5 +1,3 @@
-#!/usr/bin/env node
-
 const fs = require('fs')
 const request = require('request')
 const dateformat = require('dateformat')
@@ -84,7 +82,7 @@ function loadData(date, url) {
 // 开始时间
 const start = 1519862400000
 const day = 86400 * 1000
-const today = Date.now()
+const today = Date.now() + 30 * day
 let i = 0
 function handleLoop() {
   const time = day * i + start
